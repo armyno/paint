@@ -50,8 +50,8 @@ SettingsManager.prototype.DEFAULTS = {
 SettingsManager.prototype.LOCAL_STORAGE_PREFIX = 'paintz_';
 /** @constant {Object<String,String>} The primary color associated with each interface theme */
 SettingsManager.prototype.THEME_COLORS = {
-	default: '#3f51b5',
-	dark: '#212121',
+	default: '#f5f5f5',
+	dark: '#444444',
 	light: '#f5f5f5'
 };
 /** @constant {Number} The maximum number of file saves to count. */
