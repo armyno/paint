@@ -74,7 +74,6 @@
 }
 	.dialog.open {
 		opacity: 1;
-		display: none;
 		-webkit-transform: scale(1);
 		   -moz-transform: scale(1);
 		    -ms-transform: scale(1);
