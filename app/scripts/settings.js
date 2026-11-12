@@ -18,8 +18,8 @@ function SettingsManager() {
 /** @constant {Object} The default values for all settings */
 SettingsManager.prototype.DEFAULTS = {
 	// Canvas:
-	width: 640,
-	height: 480,
+	width: 800,
+	height: 600,
 	// Toolbar-set options:
 	tool: 'doodle',
 	lineWidth: 2,
@@ -35,7 +35,7 @@ SettingsManager.prototype.DEFAULTS = {
 	strike: false,
 	textFill: false,
 	// Settings:
-	theme: 'default',
+	theme: 'light',
 	systemThemeOverride: true,
 	colorPalette: 'material',
 	grid: false,
