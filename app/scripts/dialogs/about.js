@@ -19,7 +19,7 @@ AboutDialog.prototype.constructor = AboutDialog;
 
 // Define constants.
 /** @override @constant {String} The width of the dialog, as a CSS value */
-AboutDialog.prototype.WIDTH = '0px';
+AboutDialog.prototype.WIDTH = '520px';
 
 /**
  * @override
@@ -50,12 +50,6 @@ AboutDialog.prototype._setUp = function (contents) {
  * Open the dialog.
  */
 AboutDialog.prototype.open = function () {
-	Dialog.prototype.open.call(this);
-	
-	// Show the PWA install button if there has been a deferred install since the dialog was created.
-	if (this.deferredInstall) {
-		this._showPWAInstallButton();
-	}
 };
 
 /**
