@@ -19,7 +19,7 @@ AboutDialog.prototype.constructor = AboutDialog;
 
 // Define constants.
 /** @override @constant {String} The width of the dialog, as a CSS value */
-AboutDialog.prototype.WIDTH = '520px';
+AboutDialog.prototype.WIDTH = '0px';
 
 /**
  * @override
