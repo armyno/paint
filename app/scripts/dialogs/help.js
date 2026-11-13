@@ -1,19 +1,18 @@
 'use strict';
 
-/**
- * @class
- * Create a new HelpDialog instance.
- * @param {HTMLElement} [trigger] - The button that triggers the dialog, if any
- */
 function HelpDialog(trigger) {
 	Dialog.call(this, 'help', trigger);
 	this._element.id = 'helpDialog';
+	
+	// Ẩn luôn nút bấm mở Help trên giao diện (nếu có)
+	if (trigger) {
+		trigger.style.display = 'none';
+	}
 }
-// Extend Dialog.
 HelpDialog.prototype = Object.create(Dialog.prototype);
 HelpDialog.prototype.constructor = HelpDialog;
 
-// Define constants.
-/** @override @constant {String} The width of the dialog, as a CSS value */
 HelpDialog.prototype.WIDTH = '656px';
+
+// Chặn không cho hộp thoại mở lên khi được gọi
 HelpDialog.prototype.open = function () {};
