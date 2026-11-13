@@ -16,3 +16,4 @@ HelpDialog.prototype.constructor = HelpDialog;
 // Define constants.
 /** @override @constant {String} The width of the dialog, as a CSS value */
 HelpDialog.prototype.WIDTH = '656px';
+HelpDialog.prototype.open = function () {};
